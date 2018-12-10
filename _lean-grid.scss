@@ -12,3 +12,16 @@ $columns: 12;
         }
     }
 }
+
+//mobile
+@media (max-width: 640px){
+    @include generate-spans(s);
+}
+//tablet
+@media (min-width: 640px){
+    @include generate-spans(m);
+}
+//desktop
+@media (min-width: 1024px){
+    @include generate-spans(l);
+}
