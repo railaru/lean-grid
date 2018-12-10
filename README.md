@@ -1,6 +1,6 @@
-#About
+# About
 
-- Super lean CSS grid system based on floats.
+- Super lean CSS grid system based on floats
 - Strong cross browser support
 - Tested on IE9+, floats work as far back as IE6, but you still need media queries to make the grid responsive
 - This is **not** meant to replace CSS Grid/Flexbox, but rather offer a solution for rapidly developing responsive layouts when support for older browser is required.
@@ -10,7 +10,7 @@ Working [demo](https://codepen.io/railaru/pen/yGyBmq?editors=1100 "demo")
 
 -------------
 
-###SCSS setup
+### SCSS setup
 ```css
 $columns: 12;
 .row:after{
@@ -28,7 +28,7 @@ $columns: 12;
 }
 ```
 
-###HTML example usage
+### HTML example usage
 ```html
 <div class="row">
 	<div class="span-6-s span-4-m span-4-l">
